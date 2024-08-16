@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.1753303036.1723779844",
+      "domain": ".growcrm.io",
+      "path": "/",
+      "expires": 1758339847.297583,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+      "value": "eyJpdiI6IklhZzg5bmFxUWcya1JEM2hlQTA4UVE9PSIsInZhbHVlIjoiWEhFRmtDK1ZJTTFhZ0hzTGc2MFRjYjBBd01EblltS05LTDdpS290UjNBQ2lzWkJ3SXBNMy84SHpaeTFLajd4azdEbzFyQnRMWmUybFNiT2NxdEx1Y3NiRWxtV0ZrQWxlY3k1Zk9JMHFJc3hDUVJlbG5UYTJHR0ltRTR0WlZXMEZtaWRhTytkTkxqZHo3SE9kTWQwbnkrS2d5VVg4V0wweHVLRUROb2hRVk5NR0cxVEVEaUY2V3VuZWM0d0l2VE1NMWErSXYzWTZqVVkyR2dkYzg1VjF4c3UyL0FMZDE2LzgvZDdOQzljbHpnbz0iLCJtYWMiOiI4ODZhMDYxNTk5YWYxYTZjNmE5N2EzNGVjMTA5MjljYjViYTMyMzAyNmJhNDEyOTg2YjFkY2NkNTM4NGIxOThjIiwidGFnIjoiIn0%3D",
+      "domain": "demo.growcrm.io",
+      "path": "/",
+      "expires": 1758339846.117459,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_1VMLJ2BBG5",
+      "value": "GS1.1.1723779843.1.1.1723779847.0.0.0",
+      "domain": ".growcrm.io",
+      "path": "/",
+      "expires": 1758339847.297218,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IkoxeUE3d0pybE45MGt6LzQyU3ZCZUE9PSIsInZhbHVlIjoiejZmOExuR0E3aWp3S2IwcWdpanJIWVV6RzN1d3haazd5T3dQN0pSYkVVSmJCa2o2MDlWUWdPaFRLNWIrVHV4N3ZwejhlQ3ZFbGt5Nmpkc1JJQUlzUGxDSXIzakpieHJTbFpRaENtb0t1bkFCdFkvdjFZUm9uRDZ6MVc0MllYaXgiLCJtYWMiOiIyMzMyZmJmMGY0MzBlZjZiNjQ2ODk0YjFlOGExYTg2MDRkZTBiMDYxNTliOGRmNGI2NjA5N2RkN2YxYWYyZTViIiwidGFnIjoiIn0%3D",
+      "domain": "demo.growcrm.io",
+      "path": "/",
+      "expires": 1724039053.160422,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "crm_session",
+      "value": "eyJpdiI6IkljYmF3NWVvOUlSN0JhcEtPb3hZNEE9PSIsInZhbHVlIjoiVzgveDdFcndoQXM0SHNDa0JuR1F6ZlQrdURIVVBFaWZ3NzVwSWJUUDNxczlXbDlVMVJOak16VFIvT2JheHBhUklyZUpDV0c5citCQWkyYWpLeVRzSm84dm1JQ2wzS09Ha1A1dWRiRE5JR0MvYjhLVUFSaVIvUzhlaFBBMkdYRWgiLCJtYWMiOiJmM2VkZTZiYTU5NzFjMDI3NjgxZTA5ZDc5YmU3OTE4YWIxZDYxODlkZjUwMjhiNGZlMDFmMjdiN2UwMjlmMGIzIiwidGFnIjoiIn0%3D",
+      "domain": "demo.growcrm.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
