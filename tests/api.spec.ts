@@ -1,26 +1,26 @@
-// import { test, expect, Page } from '@playwright/test';
+import { test, expect } from '@playwright/test';
+import { CommonApi } from '../api/commonApi';
 
+test.describe.configure({ mode: 'serial' });
 
+const commonApi = new CommonApi
 
-// test.describe.configure({ mode: 'serial' });
+test.only('get list user', async () => {
+    const response = await commonApi.getResponseGetList(2)
+    const responseBody = await response.json()
+    console.log(responseBody.data)
+    expect(response.status()).toBe(200)
+});
 
-// async function getApiResponise(page:Page) {
-
-//   return page.waitForResponse(async(res)=>{
-//       if(!res.url().includes("/api/submit")){
-//         return false
-//       }
-//       console.log("monitoring response")
-//       const reponseBody = await res.json()
-//       return reponseBody.status === "Sucess"
-//   })
-// }
-// test.only('api testing', async ({ page }) => {
-//     await page.goto("https://www.google.com/")
-//     await page.waitForTimeout(2000)
-//     const responsePromise = getApiResponise(page)
-//     const reponse = await responsePromise
-//     const reponseBody = await reponse.json()
-//     console.log(reponseBody)
-// });
+test.only('create user', async () => {
+    const requestBody =
+    {
+        "name": "morpheus",
+        "job": "leader"
+    }
+    const response = await commonApi.getResponseCreateUser(requestBody)
+    const responseBody = await response.json()
+    expect(response.status()).toBe(201)
+    console.log(responseBody.id)
+});
 
