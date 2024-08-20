@@ -21,7 +21,18 @@ export class CommonApi{
       data: requestBody
     });
   }
+
+  async getRequestBody(){
+    const body =
+    {
+        "name": "morpheus",
+        "job": "leader"
+    }
+    return body 
+  }
 }
+
+
 export default defineConfig({
   use: {
     // All requests we send go to this API endpoint.
